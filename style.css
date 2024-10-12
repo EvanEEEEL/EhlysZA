@@ -1,0 +1,44 @@
+
+h1
+{
+    border : 10px dashed yellow ; 
+    padding : 5px ; 
+    width : 500px ;
+}
+h1 {color : red ; background : green ; }
+
+h3.purple {color:darkmagenta ; }
+h3.orange {color:darkorange ; }
+h3.dp {color:rgb(37, 0, 71)}
+
+.social-icon {
+    color:black ;
+    margin: 0 10px ;
+    text-decoration: none ;
+    Transition: color 0.2s ;
+}
+
+.social-icon:hover {
+    color:darkmagenta
+}
+
+img#chart {visibility: hidden; height : 0px ; }
+
+.row2 {
+    position:relative;
+    bottom: 868px;
+    left: 600px;
+}
+
+.headersec {
+    position: relative;
+    top: 0px;
+    left: 690px;
+}
+
+.row1 {
+    position: relative;
+}
+
+article.sidebar2 > p,aside
+{display : table-cell ; padding-right : 20px ; }
