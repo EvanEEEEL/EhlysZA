@@ -3,13 +3,25 @@ h1
 {
     border : 10px dashed yellow ; 
     padding : 5px ; 
-    width : 500px ;
+    width : 450px ;
+
 }
 h1 {color : red ; background : green ; }
 
+.headersec {
+  position: absolute;
+  left: 730px;
+  top: 0px;
+}
+img.banner {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
 h3.purple {color:darkmagenta ; }
 h3.orange {color:darkorange ; }
-h3.dp {color:rgb(37, 0, 71)}
+h3.dp {color:rgb(37, 0, 71) ; }
+h3.ehlysruntz {color:rgb(186, 139, 212) ; }
 
 .social-icon {
     color:black ;
@@ -19,26 +31,33 @@ h3.dp {color:rgb(37, 0, 71)}
 }
 
 .social-icon:hover {
-    color:darkmagenta
+    color:darkmagenta ;
 }
-
-img#chart {visibility: hidden; height : 0px ; }
 
 .row2 {
     position:relative;
-    bottom: 868px;
-    left: 600px;
-}
-
-.headersec {
-    position: relative;
-    top: 0px;
-    left: 690px;
+    left: 640px;
+    padding-top: 10px;
+    bottom: 860px;
+    width: 640px;
 }
 
 .row1 {
     position: relative;
+    width: 640px;
 }
 
 article.sidebar2 > p,aside
 {display : table-cell ; padding-right : 20px ; }
+
+article.eraside > p,aside
+{display : table-cell ; padding-right : 20px ; }
+
+article.MMM1 > p,aside
+{display : table-cell ; padding-right : 20px ; }
+
+article.sidebar > p,aside
+{display : table-cell ; padding-right : 20px ; }
+
+
+
